@@ -9,10 +9,13 @@ int main() {
 	//Instance de classe CPoint
 	CPoint pt; //appel du constructeur sans parametres
 
-	pt.affichePoint();
+	cout << "Abscisse du point : " << pt.abscisse() << endl;
+	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
 	pt.deplacePoint(12, 3);
 	cout << "Apres deplacement : " << endl;
-	pt.affichePoint();
+	cout << "Abscisse du point : " << pt.abscisse() << endl;
+	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
+
 
 	return 0;
 }

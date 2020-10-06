@@ -16,17 +16,17 @@ private:
 public:
 	//Fonctions membres
 
-	void affichePoint();
 	void deplacePoint(float flt_X, float flt_Y);
 
 	//Constructeur
 	CPoint(float m_fltX = 0, float m_fltY=0);
 
-	/*
+	
 	//Get
-	float getfltX() const;
-	float getfltY() const;
+	float abscisse() const;
+	float ordonnee() const;
 
+	/*
 	//Set
 	void setfltX(int m_fltX);
 	void setfltY(int m_fltY);

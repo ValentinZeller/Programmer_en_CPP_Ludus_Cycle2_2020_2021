@@ -7,12 +7,6 @@ CPoint::CPoint(float m_fltX, float m_fltY)
 	this->m_fltY = m_fltY;
 }
 
-void CPoint::affichePoint()
-{
-	cout << "Coordonnee X du point : " << this->m_fltX << endl;
-	cout << "Coordonnee Y du point : " << this->m_fltY << endl;
-}
-
 void CPoint::deplacePoint(float flt_X, float flt_Y)
 {
 	this->m_fltX += flt_X;
@@ -20,17 +14,18 @@ void CPoint::deplacePoint(float flt_X, float flt_Y)
 }
 
 
-/*
+
 //Assesseurs
-float CPoint::getfltX() const
+float CPoint::abscisse() const
 {
 	return this->m_fltX;
 }
-float CPoint::getfltY() const
+float CPoint::ordonnee() const
 {
 	return this->m_fltY;
 }
 
+/*
 //Mutateurs
 
 void CPoint::setfltX(int m_fltX)
