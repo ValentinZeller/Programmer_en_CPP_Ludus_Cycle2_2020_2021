@@ -11,11 +11,25 @@ int main() {
 
 	cout << "Abscisse du point : " << pt.abscisse() << endl;
 	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
-	pt.deplacePoint(12, 3);
-	cout << "Apres deplacement : " << endl;
+
+	pt.deplacePoint(1,1);
+	cout << " - Apres deplacement : " << endl;
 	cout << "Abscisse du point : " << pt.abscisse() << endl;
 	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
 
+	pt.homothetie(2);
+	cout << " - Apres homothetie : " << endl;
+	cout << "Abscisse du point : " << pt.abscisse() << endl;
+	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
+	cout << "r = " << pt.rho() << endl;
+	cout << "theta = " << pt.theta() << endl;
 
+	pt.rotation(45);
+	cout << " - Apres Rotation : " << endl;
+	cout << "Abscisse du point : " << pt.abscisse() << endl;
+	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
+	cout << "r = " << pt.rho() << endl;
+	cout << "theta = " << pt.theta() << endl;
+	
 	return 0;
 }
