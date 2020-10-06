@@ -21,15 +21,15 @@ int main() {
 	cout << " - Apres homothetie : " << endl;
 	cout << "Abscisse du point : " << pt.abscisse() << endl;
 	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
-	cout << "r = " << pt.rho() << endl;
-	cout << "theta = " << pt.theta() << endl;
+	cout << "r = " << pt.getRho() << endl;
+	cout << "theta = " << pt.getTheta() << endl;
 
-	pt.rotation(45);
+	pt.rotation(90);
 	cout << " - Apres Rotation : " << endl;
 	cout << "Abscisse du point : " << pt.abscisse() << endl;
 	cout << "Ordonnee du point : " << pt.ordonnee() << endl;
-	cout << "r = " << pt.rho() << endl;
-	cout << "theta = " << pt.theta() << endl;
+	cout << "r = " << pt.getRho() << endl;
+	cout << "theta = " << pt.getTheta() << endl;
 	
 	return 0;
 }
