@@ -1,25 +1,12 @@
-#include"CPoint.h"
 #include <iostream>
+#include "CVecteur3D.h"
 
 using namespace std;
 
 
 int main() {
-
-	//Instance de classe CPoint
-	CPoint pt; //appel du constructeur sans parametres
-
-	pt.affiche();
-
-	pt.deplacePoint(1,1);
-	cout << endl << " - Apres deplacement : " << endl;
-	pt.affiche();
-
-	CPoint pt2;
-	cout << endl << " - Apres creation d'un nouveau point : " << endl;
-	pt.affiche();
-	
-
+	CVecteur3D v1;
+	CVecteur3D v2(1, 2, 3);
 	
 	
 	return 0;
