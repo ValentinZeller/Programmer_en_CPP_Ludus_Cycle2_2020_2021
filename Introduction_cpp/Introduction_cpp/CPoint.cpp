@@ -10,6 +10,11 @@ CPoint::CPoint(float m_fltX, float m_fltY)
 	cpt++;
 }
 
+int CPoint::cpt_val()
+{
+	return cpt;
+}
+
 
 void CPoint::deplacePoint(float flt_X, float flt_Y)
 {
