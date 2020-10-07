@@ -20,7 +20,7 @@ void CPoint::deplacePoint(float flt_X, float flt_Y)
 void CPoint::affiche() {
 	cout << "Abscisse du point : " << m_fltX << endl;
 	cout << "Ordonnee du point : " << m_fltY << endl;
-	cout << "Nombre de points : " << cpt << endl;
+	cout << "Nombre de points : " << cpt_val() << endl;
 }
 
 

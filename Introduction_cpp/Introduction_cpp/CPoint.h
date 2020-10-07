@@ -25,6 +25,7 @@ public:
 	//Constructeur
 	CPoint(float m_fltX = 0, float m_fltY=0);
 
+	static int cpt_val();
 	
 	//Get
 	float abscisse() const;
