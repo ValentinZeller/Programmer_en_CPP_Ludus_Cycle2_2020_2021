@@ -1,21 +1,23 @@
 #include <iostream>
-#include "CVecteur3D.h"
+#include "CVecteur3D_72.h"
 
 using namespace std;
 
 
 int main() {
-	CVecteur3D v1;
-	CVecteur3D v2(1, 2, 3);
+	CVecteur3D_72 v1(1, 2, 3);
+	CVecteur3D_72 v2(4, 5, 6);
 	
-	if (v1.coincide(v2)) {
-		cout << "Les vecteurs coincident." << endl;
-	}
-	else {
-		cout << "Les vecteurs ne coincident pas." << endl;
-	}
+	cout << "Affichage du vecteur 1 :" << endl;
+	v1.affiche();
 
-	cout << "La norme max est : " << v1.normax(&v2) << endl;
+	cout << "Affichage du vecteur 2 :" << endl;
+	v2.affiche();
+
+	cout << endl << "La somme des 2 vecteurs donne : " << endl;
+	v1.somme(v2).affiche();
 	
+	cout << endl << "Le produit scalaire des 2 vecteurs donne : " << v1.prodScalaire(v2) << endl;
+
 	return 0;
 }
