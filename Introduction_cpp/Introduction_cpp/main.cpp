@@ -14,6 +14,8 @@ int main() {
 	else {
 		cout << "Les vecteurs ne coincident pas." << endl;
 	}
+
+	cout << "La norme max est : " << v1.normax(&v2) << endl;
 	
 	return 0;
 }
