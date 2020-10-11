@@ -15,6 +15,7 @@ private:
 	float m_fltX;
 	float m_fltY;
 
+	//Exercice 73
 	static int cpt;
 
 public:
@@ -25,6 +26,7 @@ public:
 	//Constructeur
 	CPoint(float m_fltX = 0, float m_fltY=0);
 
+	//Exercice 73
 	static int cpt_val();
 	
 	//Get

@@ -10,6 +10,7 @@ CPoint::CPoint(float m_fltX, float m_fltY)
 	cpt++;
 }
 
+//Exercice 73
 int CPoint::cpt_val()
 {
 	return cpt;
