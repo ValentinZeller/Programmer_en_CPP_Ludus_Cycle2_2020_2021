@@ -1,4 +1,5 @@
 #include <iostream>
+#include "CPoint.h"
 #include "CVecteur3D_72.h"
 
 using namespace std;
@@ -18,6 +19,8 @@ int main() {
 	v1.somme(v2).affiche();
 	
 	cout << endl << "Le produit scalaire des 2 vecteurs donne : " << v1.prodScalaire(v2) << endl;
+	
+	cout << "Nombre de points : " << CPoint::cpt_val() << endl;
 
 	return 0;
 }
