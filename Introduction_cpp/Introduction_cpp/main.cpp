@@ -1,5 +1,6 @@
 #include <iostream>
 #include "CPoint.h"
+#include "CVecteur3D.h"
 using namespace std;
 
 
@@ -15,6 +16,16 @@ int main() {
 	affiche(*pt2);
 
 	delete pt2;
+
+	CVecteur3D v1(1, 2, 3);
+	CVecteur3D v2(2, 3, 4);
+
+	if (coincide(v1, v2)) {
+		cout << endl << "Les vecteurs coincident." << endl;
+	}
+	else {
+		cout << endl << "Les vecteurs ne coincident pas." << endl;
+	}
 
 	return 0;
 }

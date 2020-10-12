@@ -21,9 +21,15 @@
     <ClCompile Include="CPoint.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CVecteur3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVecteur3D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
