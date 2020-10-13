@@ -143,12 +143,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CMatrice.cpp" />
     <ClCompile Include="CPoint.cpp" />
+    <ClCompile Include="CVect.cpp" />
     <ClCompile Include="CVecteur3D.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="affiche.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CMatrice.h" />
     <ClInclude Include="CPoint.h" />
+    <ClInclude Include="CVect.h" />
     <ClInclude Include="CVecteur3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

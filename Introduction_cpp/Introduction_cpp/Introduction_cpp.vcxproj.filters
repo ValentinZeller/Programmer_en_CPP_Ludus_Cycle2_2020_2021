@@ -24,12 +24,27 @@
     <ClCompile Include="CVecteur3D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CVect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMatrice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="affiche.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CVecteur3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMatrice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
