@@ -1,20 +1,15 @@
 #include <iostream>
-#include "CVecteur3D.h"
+#include "CChose.h"
 
 using namespace std;
 
 int main() {
+	CChose x;
 
-	CVecteur3D v1(1, 2, 3);
-	CVecteur3D v2(4, 5, 6);
+	cout << "bonjour\n";
 
-	v1[0] = 5;
-
-	v2[0] = v1[2];
-
-	cout << "Valeur 0 du vecteur 1 : " <<  v1[0] << endl;
-	cout << "Valeur 0 du vecteur 2 : " << v2[0] << endl;
-
+	CChose* adc = new CChose; //Creation objet de type chose
+	delete adc; //Destruction objet de type chose
 
 	return 0;
 }
