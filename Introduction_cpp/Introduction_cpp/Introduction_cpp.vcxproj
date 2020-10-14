@@ -143,13 +143,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CChose.cpp" />
-    <ClCompile Include="CDemo.cpp" />
+    <ClCompile Include="CPoint.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CChose.h" />
-    <ClInclude Include="CDemo.h" />
+    <ClInclude Include="CPoint.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
