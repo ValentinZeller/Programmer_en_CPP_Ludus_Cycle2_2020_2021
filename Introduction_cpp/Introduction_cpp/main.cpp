@@ -1,15 +1,16 @@
 #include <iostream>
 #include "CPoint.h"
 
-const int SIZE = 4;
-
 using namespace std;
+
+const int SIZE = 4;
 
 int main() {
 
-	CPoint tabPoint[SIZE];
+	CPoint* tabPoint = new CPoint[SIZE];
 
-	//Destruction à la fin du programme
+	delete[] tabPoint;
+
 	return 0;
 }
 

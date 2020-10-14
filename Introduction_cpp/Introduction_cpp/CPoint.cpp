@@ -13,4 +13,3 @@ CPoint::~CPoint()
 {
 	cout << "Destruction du point numero : " << this->m_nNum << endl;
 }
-
