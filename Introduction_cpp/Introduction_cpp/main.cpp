@@ -24,6 +24,11 @@ int main() {
 		cout << "Les vecteurs coincident" << endl;
 	}
 
+	CVecteur3D v3 = v1 + v2;
+
+	cout << "L'addition des deux vecteurs donne : " << v3.getX() << ", " << v3.getY() << ", " << v3.getZ() <<endl;
+	cout << "Le produit scalaire donne : " << v1 * v2 << endl;
+
 	return 0;
 }
 

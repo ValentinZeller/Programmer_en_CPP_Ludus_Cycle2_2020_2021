@@ -16,5 +16,13 @@ public:
 	//Surcharges opérateurs !=
 	bool operator!=(const CVecteur3D&); //fonction membre
 	friend bool operator!=(const CVecteur3D&, const CVecteur3D&); //fonction amie
+
+	friend CVecteur3D operator+(const CVecteur3D&, const CVecteur3D&);
+	friend float operator*(const CVecteur3D&, const CVecteur3D&);
+
+	//Assesseurs
+	float getX();
+	float getY();
+	float getZ();
 };
 
