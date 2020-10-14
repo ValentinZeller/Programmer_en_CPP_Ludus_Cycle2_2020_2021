@@ -6,28 +6,15 @@ using namespace std;
 int main() {
 
 	CVecteur3D v1(1, 2, 3);
-	CVecteur3D v2(1, 2, 3);
+	CVecteur3D v2(4, 5, 6);
 
-	cout << "Test surcharge operateur ==" << endl;
-	if (v1 == v2) {
-		cout << "Les vecteurs coincident" << endl;
-	}
-	else {
-		cout << "Les vecteurs ne coincident pas" << endl;
-	}
+	v1[0] = 5;
 
-	cout << endl << "Test surcharge operateur !=" << endl;
-	if (v1 != v2) {
-		cout << "Les vecteurs ne coincident pas" << endl;
-	}
-	else {
-		cout << "Les vecteurs coincident" << endl;
-	}
+	v2[0] = v1[2];
 
-	CVecteur3D v3 = v1 + v2;
+	cout << "Valeur 0 du vecteur 1 : " <<  v1[0] << endl;
+	cout << "Valeur 0 du vecteur 2 : " << v2[0] << endl;
 
-	cout << "L'addition des deux vecteurs donne : " << v3.getX() << ", " << v3.getY() << ", " << v3.getZ() <<endl;
-	cout << "Le produit scalaire donne : " << v1 * v2 << endl;
 
 	return 0;
 }
