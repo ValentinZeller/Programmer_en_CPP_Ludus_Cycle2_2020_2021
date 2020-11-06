@@ -20,4 +20,11 @@ public:
 	int getCardinal();
 	void addValue(int nVal);
 	bool hasValue(int nVal);
+
+	/*
+	int operator[](const int i) const;
+	int& operator[](const int i);
+	*/
+
+	CSet_int& operator=(const CSet_int& set);
 };

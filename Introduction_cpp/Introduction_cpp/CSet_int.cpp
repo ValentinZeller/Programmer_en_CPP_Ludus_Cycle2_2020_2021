@@ -50,3 +50,39 @@ bool CSet_int::hasValue(int nVal)
 	}
 	return false;
 }
+
+/*
+int CSet_int::operator[](const int i) const
+{
+	if (i >= 0 && i < this->m_nMax) {
+		return this->m_nAdVal[i];
+	}
+	else {
+		cout << "Erreur : valeur de l'index non valide" << endl;
+		exit(1);
+	}
+}
+
+int& CSet_int::operator[](const int i)
+{
+	if (i >= 0 && i < this->m_nMax) {
+		return this->m_nAdVal[i];
+	}
+	else {
+		cout << "Erreur : valeur de l'index non valide" << endl;
+		exit(1);
+	}
+}
+*/
+
+CSet_int &CSet_int::operator=(const CSet_int& set)
+{
+	this->m_nElem = set.m_nElem;
+	this->m_nMax = set.m_nMax;
+	this->m_nAdVal = new int[m_nMax];
+	for (int i = 0; i < m_nMax; i++) {
+		this->m_nAdVal[i] = set.m_nAdVal[i];
+	}
+
+	return *this;
+}
