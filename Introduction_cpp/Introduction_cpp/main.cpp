@@ -31,6 +31,8 @@ int main() {
 
 	// Affectation multiple
 	set3 = set2 =  set;
+	//set[0] = 1; Impossible
+	cout << set[0] <<endl;
 
 
 	return 0;

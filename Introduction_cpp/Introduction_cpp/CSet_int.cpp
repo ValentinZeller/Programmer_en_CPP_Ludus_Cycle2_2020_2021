@@ -51,10 +51,16 @@ bool CSet_int::hasValue(int nVal)
 	return false;
 }
 
-/*
-int CSet_int::operator[](const int i) const
+
+int CSet_int::operator[](int i)
 {
 	if (i >= 0 && i < this->m_nMax) {
+		if (this->hasValue(i)) {
+			this->m_nAdVal[i] = 1;
+		}
+		else {
+			this->m_nAdVal[i] = 0;
+		}
 		return this->m_nAdVal[i];
 	}
 	else {
@@ -63,17 +69,13 @@ int CSet_int::operator[](const int i) const
 	}
 }
 
-int& CSet_int::operator[](const int i)
+
+CSet_int& CSet_int::operator<(const int& nX)
 {
-	if (i >= 0 && i < this->m_nMax) {
-		return this->m_nAdVal[i];
-	}
-	else {
-		cout << "Erreur : valeur de l'index non valide" << endl;
-		exit(1);
-	}
+	this->addValue(nX);
+	return *this;
 }
-*/
+
 
 CSet_int &CSet_int::operator=(const CSet_int& set)
 {

@@ -21,10 +21,10 @@ public:
 	void addValue(int nVal);
 	bool hasValue(int nVal);
 
-	/*
-	int operator[](const int i) const;
-	int& operator[](const int i);
-	*/
+	//Surcharge opérateur index
+	int operator[](int i);
+	
+	CSet_int& operator<(const int& nX);
 
 	CSet_int& operator=(const CSet_int& set);
 };
