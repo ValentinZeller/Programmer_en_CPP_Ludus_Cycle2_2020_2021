@@ -144,11 +144,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CSet_int.cpp" />
+    <ClCompile Include="CVect.cpp" />
     <ClCompile Include="CVecteur3D.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CSet_int.h" />
+    <ClInclude Include="CVect.h" />
     <ClInclude Include="CVecteur3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

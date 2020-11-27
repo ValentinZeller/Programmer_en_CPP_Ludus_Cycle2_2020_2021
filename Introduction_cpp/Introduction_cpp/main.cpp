@@ -2,6 +2,7 @@
 #include "CSet_int.h"
 #include "CVecteur3D.h"
 #include <time.h>
+#include "CVect.h"
 
 using namespace std;
 
@@ -33,12 +34,16 @@ int main() {
 	// Affectation multiple
 	set3 = set2 =  set;
 	//set[0] = 1; Impossible
-	cout << "Surcharge opérateur [] : "<<set[0] <<endl;
+	cout << "Surcharge operateur [] : "<<set[0] <<endl;
 
 	//Vecteur 3D
 	CVecteur3D v1(1,2,3);
 	float x = v1[2];
-	cout <<"Surcharge opérateur [] des vecteurs : "<< x << endl;
+	cout <<"Surcharge operateur [] des vecteurs : "<< x << endl;
+
+	//Vecteur dynamique
+	CVect t(10);
+	cout << "Vecteur dynamique et operateur [] : "<<t[1] << endl;
 
 
 	return 0;
