@@ -143,12 +143,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CInt2D.cpp" />
     <ClCompile Include="CSet_int.cpp" />
     <ClCompile Include="CVect.cpp" />
     <ClCompile Include="CVecteur3D.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CInt2D.h" />
     <ClInclude Include="CSet_int.h" />
     <ClInclude Include="CVect.h" />
     <ClInclude Include="CVecteur3D.h" />

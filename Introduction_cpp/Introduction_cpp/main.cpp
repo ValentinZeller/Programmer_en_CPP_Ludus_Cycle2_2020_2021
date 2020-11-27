@@ -3,6 +3,7 @@
 #include "CVecteur3D.h"
 #include <time.h>
 #include "CVect.h"
+#include "CInt2D.h"
 
 using namespace std;
 
@@ -44,6 +45,10 @@ int main() {
 	//Vecteur dynamique
 	CVect t(10);
 	cout << "Vecteur dynamique et operateur [] : "<<t[1] << endl;
+
+	//Entier à deux indices
+	CInt2D t2(4, 3);
+	cout << "Tableau entier dynamique a deux indices et operateur () : " << t2(1, 2) << endl;
 
 
 	return 0;
