@@ -4,6 +4,7 @@
 #include <time.h>
 #include "CVect.h"
 #include "CInt2D.h"
+#include "CHisto.h"
 
 using namespace std;
 
@@ -50,6 +51,11 @@ int main() {
 	CInt2D t2(4, 3);
 	cout << "Tableau entier dynamique a deux indices et operateur () : " << t2(1, 2) << endl;
 
+	//Histogramme
+	CHisto h(1, 10, 2);
+	h << 1;
+	h << 2;
+	cout << "Histogramme : ajout de deux valeur dans la tranche 1 : "<< h[1] << endl;
 
 	return 0;
 }

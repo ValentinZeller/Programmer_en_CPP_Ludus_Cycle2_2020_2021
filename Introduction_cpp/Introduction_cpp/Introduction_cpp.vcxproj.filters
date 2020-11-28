@@ -30,6 +30,9 @@
     <ClCompile Include="CInt2D.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CHisto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CSet_int.h">
@@ -42,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CInt2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHisto.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

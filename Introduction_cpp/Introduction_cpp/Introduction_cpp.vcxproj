@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CHisto.cpp" />
     <ClCompile Include="CInt2D.cpp" />
     <ClCompile Include="CSet_int.cpp" />
     <ClCompile Include="CVect.cpp" />
@@ -150,6 +151,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CHisto.h" />
     <ClInclude Include="CInt2D.h" />
     <ClInclude Include="CSet_int.h" />
     <ClInclude Include="CVect.h" />
